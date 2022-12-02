@@ -1,0 +1,38 @@
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    color: black;
+    background-color:yellow;
+}
+
+canvas {
+    border-width: thick;
+    animation-name:"rgb";
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-top: 50px;
+}
+
+@keyframes canvas {
+    from {
+        box-shadow: 3px 3px 19px rgb(255, 250, 0);
+    }
+    to {
+        box-shadow: 3px 3px 19px rgb(255, 255, 255);
+    }
+}
+
+.footer_div {
+    position: fixed;
+    color: #6aff00;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 3;
+    text-align: center;
+}
